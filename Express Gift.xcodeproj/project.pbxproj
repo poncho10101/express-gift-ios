@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08026748AF942F22247863B6 /* Pods_Express_Gift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA13CFFAFF690817F8927389 /* Pods_Express_Gift.framework */; };
+		8409B01A21EFC10E006C739F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409B01921EFC10E006C739F /* Toast.swift */; };
+		8409B01D21EFC4B7006C739F /* GiftSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409B01C21EFC4B7006C739F /* GiftSelectedViewController.swift */; };
 		84240BCA21ED13D100F8DBB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84240BC921ED13D100F8DBB5 /* AppDelegate.swift */; };
-		84240BCC21ED13D100F8DBB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84240BCB21ED13D100F8DBB5 /* ViewController.swift */; };
 		84240BCF21ED13D100F8DBB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84240BCD21ED13D100F8DBB5 /* Main.storyboard */; };
 		84240BD121ED13D200F8DBB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84240BD021ED13D200F8DBB5 /* Assets.xcassets */; };
 		84240BD421ED13D200F8DBB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84240BD221ED13D200F8DBB5 /* LaunchScreen.storyboard */; };
 		84240BDF21ED13D200F8DBB5 /* Express_GiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84240BDE21ED13D200F8DBB5 /* Express_GiftTests.swift */; };
+		849B578921EF259400484713 /* QrGenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B578821EF259400484713 /* QrGenViewController.swift */; };
+		849B579021EF344600484713 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B578F21EF344600484713 /* BaseViewController.swift */; };
+		849B579321EF37F800484713 /* QrData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B579221EF37F800484713 /* QrData.swift */; };
+		849B579521EF385100484713 /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B579421EF385100484713 /* Vendor.swift */; };
+		849B579721EF385F00484713 /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B579621EF385F00484713 /* Gift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8409B01921EFC10E006C739F /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		8409B01C21EFC4B7006C739F /* GiftSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftSelectedViewController.swift; sourceTree = "<group>"; };
 		84240BC621ED13D100F8DBB5 /* Express Gift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Express Gift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84240BC921ED13D100F8DBB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84240BCB21ED13D100F8DBB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84240BCE21ED13D100F8DBB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84240BD021ED13D200F8DBB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84240BD321ED13D200F8DBB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +44,15 @@
 		84240BDA21ED13D200F8DBB5 /* Express GiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Express GiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84240BDE21ED13D200F8DBB5 /* Express_GiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Express_GiftTests.swift; sourceTree = "<group>"; };
 		84240BE021ED13D200F8DBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8464655021ED5307000A1D7A /* Express Gift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Express Gift-Bridging-Header.h"; sourceTree = "<group>"; };
+		849B578821EF259400484713 /* QrGenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrGenViewController.swift; sourceTree = "<group>"; };
+		849B578F21EF344600484713 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		849B579221EF37F800484713 /* QrData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrData.swift; sourceTree = "<group>"; };
+		849B579421EF385100484713 /* Vendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
+		849B579621EF385F00484713 /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
+		B60B8285451BD31E176D5BB2 /* Pods-Express Gift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Express Gift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Express Gift/Pods-Express Gift.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1DCA617FED4C98449267ED /* Pods-Express Gift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Express Gift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Express Gift/Pods-Express Gift.release.xcconfig"; sourceTree = "<group>"; };
+		FA13CFFAFF690817F8927389 /* Pods_Express_Gift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Express_Gift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08026748AF942F22247863B6 /* Pods_Express_Gift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +74,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8409B01821EFC0FB006C739F /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				8409B01921EFC10E006C739F /* Toast.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		8409B01B21EFC49C006C739F /* giftselected */ = {
+			isa = PBXGroup;
+			children = (
+				8409B01C21EFC4B7006C739F /* GiftSelectedViewController.swift */,
+			);
+			path = giftselected;
+			sourceTree = "<group>";
+		};
 		84240BBD21ED13D000F8DBB5 = {
 			isa = PBXGroup;
 			children = (
 				84240BC821ED13D100F8DBB5 /* Express Gift */,
 				84240BDD21ED13D200F8DBB5 /* Express GiftTests */,
 				84240BC721ED13D100F8DBB5 /* Products */,
+				8464624821ED2B88000A1D7A /* Frameworks */,
+				F020980E217539515A7A5B86 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +113,16 @@
 		84240BC821ED13D100F8DBB5 /* Express Gift */ = {
 			isa = PBXGroup;
 			children = (
+				8409B01821EFC0FB006C739F /* utils */,
+				849B579121EF37CC00484713 /* entities */,
+				849B578E21EF343100484713 /* base */,
+				849B578721EF256C00484713 /* ui */,
 				84240BC921ED13D100F8DBB5 /* AppDelegate.swift */,
-				84240BCB21ED13D100F8DBB5 /* ViewController.swift */,
 				84240BCD21ED13D100F8DBB5 /* Main.storyboard */,
 				84240BD021ED13D200F8DBB5 /* Assets.xcassets */,
 				84240BD221ED13D200F8DBB5 /* LaunchScreen.storyboard */,
 				84240BD521ED13D200F8DBB5 /* Info.plist */,
+				8464655021ED5307000A1D7A /* Express Gift-Bridging-Header.h */,
 			);
 			path = "Express Gift";
 			sourceTree = "<group>";
@@ -96,6 +136,58 @@
 			path = "Express GiftTests";
 			sourceTree = "<group>";
 		};
+		8464624821ED2B88000A1D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA13CFFAFF690817F8927389 /* Pods_Express_Gift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		849B578721EF256C00484713 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				8409B01B21EFC49C006C739F /* giftselected */,
+				849B578A21EF262600484713 /* qrgen */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		849B578A21EF262600484713 /* qrgen */ = {
+			isa = PBXGroup;
+			children = (
+				849B578821EF259400484713 /* QrGenViewController.swift */,
+			);
+			path = qrgen;
+			sourceTree = "<group>";
+		};
+		849B578E21EF343100484713 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				849B578F21EF344600484713 /* BaseViewController.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		849B579121EF37CC00484713 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				849B579221EF37F800484713 /* QrData.swift */,
+				849B579421EF385100484713 /* Vendor.swift */,
+				849B579621EF385F00484713 /* Gift.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		F020980E217539515A7A5B86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B60B8285451BD31E176D5BB2 /* Pods-Express Gift.debug.xcconfig */,
+				BE1DCA617FED4C98449267ED /* Pods-Express Gift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84240BE321ED13D200F8DBB5 /* Build configuration list for PBXNativeTarget "Express Gift" */;
 			buildPhases = (
+				7FE3A506515993C3F05AA1F5 /* [CP] Check Pods Manifest.lock */,
 				84240BC221ED13D100F8DBB5 /* Sources */,
 				84240BC321ED13D100F8DBB5 /* Frameworks */,
 				84240BC421ED13D100F8DBB5 /* Resources */,
+				F2DA700EFF824CDAAB2D4187 /* [CP] Copy Pods Resources */,
+				844D156CC9B1148EF9BA129C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,6 +241,7 @@
 				TargetAttributes = {
 					84240BC521ED13D100F8DBB5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					84240BD921ED13D200F8DBB5 = {
 						CreatedOnToolsVersion = 10.1;
@@ -192,13 +288,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7FE3A506515993C3F05AA1F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Express Gift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		844D156CC9B1148EF9BA129C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Express Gift/Pods-Express Gift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Express Gift/Pods-Express Gift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2DA700EFF824CDAAB2D4187 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Express Gift/Pods-Express Gift-resources.sh",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/GNSSharedResources.bundle",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/ic_expand_more.xcassets",
+				"${PODS_ROOT}/NearbyMessages/Resources/resources/ic_nearby_48pt.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GNSSharedResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Express Gift/Pods-Express Gift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84240BC221ED13D100F8DBB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84240BCC21ED13D100F8DBB5 /* ViewController.swift in Sources */,
+				849B579021EF344600484713 /* BaseViewController.swift in Sources */,
+				8409B01A21EFC10E006C739F /* Toast.swift in Sources */,
+				849B579521EF385100484713 /* Vendor.swift in Sources */,
+				849B579321EF37F800484713 /* QrData.swift in Sources */,
+				8409B01D21EFC4B7006C739F /* GiftSelectedViewController.swift in Sources */,
 				84240BCA21ED13D100F8DBB5 /* AppDelegate.swift in Sources */,
+				849B578921EF259400484713 /* QrGenViewController.swift in Sources */,
+				849B579721EF385F00484713 /* Gift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,17 +526,23 @@
 		};
 		84240BE421ED13D200F8DBB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60B8285451BD31E176D5BB2 /* Pods-Express Gift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 9D225BLZ4G;
 				INFOPLIST_FILE = "Express Gift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsosotelo.Express-Gift";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfonsosotelo.expressgift.vendor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Express Gift/Express Gift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -376,17 +550,22 @@
 		};
 		84240BE521ED13D200F8DBB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1DCA617FED4C98449267ED /* Pods-Express Gift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 9D225BLZ4G;
 				INFOPLIST_FILE = "Express Gift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsosotelo.Express-Gift";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfonsosotelo.expressgift.vendor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Express Gift/Express Gift-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
